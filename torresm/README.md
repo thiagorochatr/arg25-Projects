@@ -9,6 +9,9 @@ No one really knows. But like your data — it’s protected by default.
 - GitHub Handle: [@thiagorochatr](https://github.com/thiagorochatr)
 - Devfolio Handle: thiagorochatr
 
+- Name: Pedro Rosalba
+- GitHub Handle: [@PedroRosalba](https://github.com/PedroRosalba)
+
 ## Project Description
 ### 🔒 What It Does
 
@@ -112,7 +115,7 @@ _What are the specific outcomes you aim to achieve by the end of ARG25?_
 - Deploy ConfidentialERC20 token on Ethereum
 
 **Progress Summary:**  
-[To be filled during Week 3]
+- Complex Open Zeppelin/Zama libs are not yet stable. Implementing them in just a few days is not so simple.
 
 
 ## Final Wrap-Up
