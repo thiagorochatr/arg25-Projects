@@ -5,9 +5,9 @@ No one really knows. But like your data — it’s protected by default.
 
 
 ## Team
-- Name: Thiago Rocha
+- Name: Thiago Rocha [site](https://thiagorochatr.com/)
 - GitHub Handle: [@thiagorochatr](https://github.com/thiagorochatr)
-- Devfolio Handle: thiagorochatr
+- Devfolio Handle: thiagorochatr  
 
 - Name: Pedro Rosalba
 - GitHub Handle: [@PedroRosalba](https://github.com/PedroRosalba)
@@ -102,26 +102,26 @@ _What are the specific outcomes you aim to achieve by the end of ARG25?_
 ### 🗓️ Week 3 (ends Nov 14)
 **Goals:**
 - Create a more complex flow
-- Run encrypted computation (sum or validation)
+- Run encrypted computation
 - Show full end-to-end flow
 - Document usage and design
-- Implement vesting_validity.circom circuit and generate proving/verification keys
+- Implement circom circuit and generate proving/verification keys
 - Deploy ZKVerifier contract (Rust/Stylus) on Arbitrum Sepolia
 - Deploy VestingController (Solidity) on Arbitrum with CCIP sender
 - Deploy VestingWalletCCIPReceiver (Solidity + FHE) on Ethereum Sepolia
 - Integrate OpenZeppelin VestingWalletCliffConfidential
 - Build frontend flows: Create vesting & Request release
-- Test full end-to-end flow with 2-minute cliff for demo
-- Deploy ConfidentialERC20 token on Ethereum
+- Test full end-to-end flow with cliff for demo
 
 **Progress Summary:**  
 - Complex Open Zeppelin/Zama libs are not yet stable. Implementing them in just a few days is not so simple.
+- ✅ Successfully completed the ZK part: User generates the proof, then calls the Stylus contract to verify the proof. If the proof is verified, it calls the sendMessage function of the CCIP sender contract, which is deployed on Arbitrum. The message is sent containing the address, nullifier, and timestamp.
+- ⚠️ ConfidentialVesting still has some issues under investigation. It worked successfully 30% of the time.
+- ❌ CCIP Receiver has not yet been implemented in the flow.
 
 
 ## Final Wrap-Up
-_After Week 3, summarize your final state: deliverables, repo links, and outcomes._
-
-- **Main Repository Link:**  
+- **Main Repository Link:**  https://github.com/thiagorochatr/torresm-fhe-vesting
 - **Demo / Deployment Link (if any):**  
 - **Slides / Presentation (if any):**
 
@@ -129,12 +129,12 @@ _After Week 3, summarize your final state: deliverables, repo links, and outcome
 
 ## 🧾 Learnings
 _What did you learn or improve during ARG25?_
-
+soon...
 
 
 ## Next Steps
 _If you plan to continue development beyond ARG25, what’s next?_
-
+soon...
 
 
 _This template is part of the [ARG25 Projects Repository](https://github.com/invisible-garden/arg25-projects)._  
